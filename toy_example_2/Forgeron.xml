@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" version="1" level="2">
+<model id="Forgeron" name="Chalumo">
+<listOfUnitDefinitions>
+	<unitDefinition id="mmol_per_gDW_per_hr">
+		<listOfUnits>
+			<unit kind="mole" scale="-3"/>
+			<unit kind="gram" exponent="-1"/>
+			<unit kind="second" multiplier=".00027777" exponent="-1"/>
+		</listOfUnits>
+	</unitDefinition>
+</listOfUnitDefinitions>
+<listOfCompartments>
+  <compartment id="c" name="Cytosol"/>
+</listOfCompartments>
+<listOfSpecies>
+  <species id="MINERAIS" name="MINERAIS" compartment="c" boundaryCondition="false"/>
+  <species id="POINTE_DE_FER" name="POINTE_DE_FER" compartment="c" boundaryCondition="false"/>
+  <species id="LIME_A_GRIFFE" name="LIME_A_GRIFFE" compartment="c" boundaryCondition="false"/>
+  <species id="CUIR" name="CUIR" compartment="c" boundaryCondition="false"/>
+  <species id="ARMURE" name="ARMURE" compartment="c" boundaryCondition="false"/>
+</listOfSpecies>
+<listOfReactions>
+        <reaction id="R8" name="FLECHAGE_B" reversible="false">
+          <listOfReactants>
+              <speciesReference species="MINERAIS" stoichiometry="1" />
+          </listOfReactants>
+          <listOfProducts>
+              <speciesReference species="POINTE_DE_FER" stoichiometry="1" />
+          </listOfProducts>
+          <kineticLaw>
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci>FLUX_VALUE</ci>
+              </math>
+              <listOfParameters>
+              <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+              <parameter id="UPPER_BOUND" value="99999" units="mmol_per_gDW_per_hr"/>
+              <parameter id="OBJECTIVE_COEFFICIENT" value="0" />
+              <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+              </listOfParameters>
+              </kineticLaw>
+            </reaction>
+        <reaction id="R12" name="GRIFOUILLE" reversible="false">
+          <listOfReactants>
+              <speciesReference species="MINERAIS" stoichiometry="1" />
+          </listOfReactants>
+          <listOfProducts>
+              <speciesReference species="LIME_A_GRIFFE" stoichiometry="1" />
+          </listOfProducts>
+          <kineticLaw>
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci>FLUX_VALUE</ci>
+              </math>
+              <listOfParameters>
+              <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+              <parameter id="UPPER_BOUND" value="99999" units="mmol_per_gDW_per_hr"/>
+              <parameter id="OBJECTIVE_COEFFICIENT" value="0" />
+              <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+              </listOfParameters>
+              </kineticLaw>
+            </reaction>
+        <reaction id="R11" name="COUTURE" reversible="false">
+          <listOfReactants>
+              <speciesReference species="CUIR" stoichiometry="1" />
+          </listOfReactants>
+          <listOfProducts>
+              <speciesReference species="ARMURE" stoichiometry="1" />
+          </listOfProducts>
+          <kineticLaw>
+              <math xmlns="http://www.w3.org/1998/Math/MathML">
+              <ci>FLUX_VALUE</ci>
+              </math>
+              <listOfParameters>
+              <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+              <parameter id="UPPER_BOUND" value="99999" units="mmol_per_gDW_per_hr"/>
+              <parameter id="OBJECTIVE_COEFFICIENT" value="0" />
+              <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+              </listOfParameters>
+              </kineticLaw>
+            </reaction>
+</listOfReactions>
+</model>
+</sbml>
