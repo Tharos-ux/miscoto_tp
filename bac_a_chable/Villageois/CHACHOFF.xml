@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2" version="1" level="2">
-<model id="Chaventuriere" name="Biscotte">
+<model id="CHACHOFFE" name="Generated from BioCyc Pathway/Genome Database">
 <listOfUnitDefinitions>
 	<unitDefinition id="mmol_per_gDW_per_hr">
 		<listOfUnits>
@@ -14,19 +14,20 @@
   <compartment id="c" name="Cytosol"/>
 </listOfCompartments>
 <listOfSpecies>
-  <species id="HERBES_MEDICINALES" name="HERBES_MEDICINALES" compartment="c" boundaryCondition="false"/>
-  <species id="POTION_DE_SANTE" name="POTION_DE_SANTE" compartment="c" boundaryCondition="false"/>
-  <species id="TIGE_DE_BOIS" name="TIGE_DE_BOIS" compartment="c" boundaryCondition="false"/>
-  <species id="POINTE_DE_FER" name="POINTE_DE_FER" compartment="c" boundaryCondition="false"/>
-  <species id="FLECHES" name="FLECHES" compartment="c" boundaryCondition="false"/>
+  <species id="VACHE" name="VACHE" compartment="c" boundaryCondition="false"/>
+  <species id="CUIR" name="CUIR" compartment="c" boundaryCondition="false"/>
+  <species id="ACIER" name="ACIER" compartment="c" boundaryCondition="false"/>
+  <species id="EPEE" name="EPEE" compartment="c" boundaryCondition="false"/>
+  <species id="MINERAIS" name="MINERAIS" compartment="c" boundaryCondition="false"/>
 </listOfSpecies>
 <listOfReactions>
-        <reaction id="R4" name="ALCHIMIE" reversible="false">
+        <reaction id="R_R4" name="R_R4" reversible="false">
           <listOfReactants>
-              <speciesReference species="HERBES_MEDICINALES" stoichiometry="1" />
+              <speciesReference species="CUIR" stoichiometry="1" />
+              <speciesReference species="ACIER" stoichiometry="1" />
           </listOfReactants>
           <listOfProducts>
-              <speciesReference species="POTION_DE_SANTE" stoichiometry="1" />
+              <speciesReference species="EPEE" stoichiometry="1.0000" />
           </listOfProducts>
           <kineticLaw>
               <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -40,13 +41,12 @@
               </listOfParameters>
               </kineticLaw>
             </reaction>
-        <reaction id="R9" name="FLECHAGE" reversible="false">
+        <reaction id="R_R1" name="R_R1" reversible="false">
           <listOfReactants>
-              <speciesReference species="TIGE_DE_BOIS" stoichiometry="1" />
-              <speciesReference species="POINTE_DE_FER" stoichiometry="1" />
+              <speciesReference species="VACHE" stoichiometry="1" />
           </listOfReactants>
           <listOfProducts>
-              <speciesReference species="FLECHES" stoichiometry="1" />
+              <speciesReference species="CUIR" stoichiometry="1.0000" />
           </listOfProducts>
           <kineticLaw>
               <math xmlns="http://www.w3.org/1998/Math/MathML">

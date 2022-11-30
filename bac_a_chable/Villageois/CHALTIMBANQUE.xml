@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2" version="1" level="2">
-<model id="Villageois" name="Chaprichti">
+<model id="CHALTIBANQUE" name="Generated from BioCyc Pathway/Genome Database">
 <listOfUnitDefinitions>
 	<unitDefinition id="mmol_per_gDW_per_hr">
 		<listOfUnits>
@@ -14,38 +14,21 @@
   <compartment id="c" name="Cytosol"/>
 </listOfCompartments>
 <listOfSpecies>
-  <species id="BOIS" name="BOIS" compartment="c" boundaryCondition="false"/>
-  <species id="MINERAIS" name="MINERAIS" compartment="c" boundaryCondition="false"/>
+  <species id="MARCHE" name="MARCHE" compartment="c" boundaryCondition="false"/>
+  <species id="EPEE_MAGIK" name="EPEE_MAGIK" compartment="c" boundaryCondition="false"/>
   <species id="VACHE" name="VACHE" compartment="c" boundaryCondition="false"/>
   <species id="CUIR" name="CUIR" compartment="c" boundaryCondition="false"/>
+  <species id="ACIER" name="ACIER" compartment="c" boundaryCondition="false"/>
+  <species id="EPEE" name="EPEE" compartment="c" boundaryCondition="false"/>
+  <species id="MINERAIS" name="MINERAIS" compartment="c" boundaryCondition="false"/>
 </listOfSpecies>
 <listOfReactions>
-        <reaction id="R14" name="TOUTEN1" reversible="false">
+        <reaction id="R_R5" name="R_R5" reversible="false">
           <listOfReactants>
-              <speciesReference species="BOIS" stoichiometry="1" />
-              <speciesReference species="MINERAIS" stoichiometry="1" />
+              <speciesReference species="MARCHE" stoichiometry="1" />
           </listOfReactants>
           <listOfProducts>
-              <speciesReference species="FLECHES" stoichiometry="1" />
-          </listOfProducts>
-          <kineticLaw>
-              <math xmlns="http://www.w3.org/1998/Math/MathML">
-              <ci>FLUX_VALUE</ci>
-              </math>
-              <listOfParameters>
-              <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
-              <parameter id="UPPER_BOUND" value="99999" units="mmol_per_gDW_per_hr"/>
-              <parameter id="OBJECTIVE_COEFFICIENT" value="0" />
-              <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
-              </listOfParameters>
-              </kineticLaw>
-            </reaction>
-        <reaction id="R10" name="TANERIE" reversible="false">
-          <listOfReactants>
-              <speciesReference species="VACHE" stoichiometry="1" />
-          </listOfReactants>
-          <listOfProducts>
-              <speciesReference species="CUIR" stoichiometry="1" />
+              <speciesReference species="EPEE" stoichiometry="1.0000" />
           </listOfProducts>
           <kineticLaw>
               <math xmlns="http://www.w3.org/1998/Math/MathML">
