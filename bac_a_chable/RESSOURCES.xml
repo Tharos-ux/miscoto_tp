@@ -16,7 +16,7 @@
 <listOfSpecies>
   <species id="VACHE" name="VACHE" compartment="c" boundaryCondition="false"/>
   <species id="MINERAIS" name="MINERAIS" compartment="c" boundaryCondition="false"/>
-  <species id="MARCHE" name="MARCHE" compartment="c" boundaryCondition="false"/>
+  <species id="ARGENT" name="ARGENT" compartment="c" boundaryCondition="false"/>
 </listOfSpecies>
 <listOfReactions>
 </listOfReactions>
