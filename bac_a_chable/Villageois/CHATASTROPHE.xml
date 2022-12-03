@@ -14,11 +14,9 @@
   <compartment id="c" name="Cytosol"/>
 </listOfCompartments>
 <listOfSpecies>
-  <species id="VACHE" name="VACHE" compartment="c" boundaryCondition="false"/>
   <species id="CUIR" name="CUIR" compartment="c" boundaryCondition="false"/>
   <species id="ACIER" name="ACIER" compartment="c" boundaryCondition="false"/>
   <species id="EPEE" name="EPEE" compartment="c" boundaryCondition="false"/>
-  <species id="MINERAIS" name="MINERAIS" compartment="c" boundaryCondition="false"/>
 </listOfSpecies>
 <listOfReactions>
         <reaction id="R_R4" name="R_R4" reversible="false">

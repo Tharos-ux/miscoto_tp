@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2" version="1" level="2">
-<model id="CHACHOFFE" name="Generated from BioCyc Pathway/Genome Database">
+<model id="CHACHOFF" name="Generated from BioCyc Pathway/Genome Database">
 <listOfUnitDefinitions>
 	<unitDefinition id="mmol_per_gDW_per_hr">
 		<listOfUnits>
@@ -18,7 +18,6 @@
   <species id="CUIR" name="CUIR" compartment="c" boundaryCondition="false"/>
   <species id="ACIER" name="ACIER" compartment="c" boundaryCondition="false"/>
   <species id="EPEE" name="EPEE" compartment="c" boundaryCondition="false"/>
-  <species id="MINERAIS" name="MINERAIS" compartment="c" boundaryCondition="false"/>
 </listOfSpecies>
 <listOfReactions>
         <reaction id="R_R4" name="R_R4" reversible="false">
