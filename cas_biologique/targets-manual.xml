@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" level="2" metaid="_25744563-98dd-46d8-b6f9-cf2d22b4e778" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="4">
+  <model id="recon" name="Swainston2016 - Reconstruction of human metabolic network (Recon 2.2) MODEL1603150001" metaid="meta_recon2_2">
+      <listOfUnitDefinitions>
+      <unitDefinition id="flux_unit" metaid="a857c55e-e2df-4616-bcb1-e62b48f4c3ce">
+        <listOfUnits>
+          <unit metaid="_2baa8964-aaf5-4ee6-9523-009c2c8fba37" kind="mole"/>
+          <unit exponent="-1" metaid="_97f06357-aa07-4c4d-848f-bad481f0f2b8" kind="second"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c" name="cytoplasm" metaid="meta_c" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="e" name="extracellular space" metaid="meta_e" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="g" name="Golgi apparatus" metaid="meta_g" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="l" name="lysosome" metaid="meta_l" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="m" name="mitochondrion" metaid="meta_m" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="n" name="nucleus" metaid="meta_n" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="r" name="endoplasmic reticulum" metaid="meta_r" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="x" name="peroxisome" metaid="meta_x" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="b" name="boundary" metaid="ae4b1a5b-d773-4829-a154-e5517204c26c" sboTerm="SBO:0000290" size="1"/>
+      <compartment id="i" name="mitochondrial intermembrane space" metaid="meta_i" sboTerm="SBO:0000290" size="1">
+            </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+          <species id="M_1p3h5c_c" initialConcentration="0" charge="-1" name="(3R,5S)-1-pyrroline-3-hydroxy-5-carboxylic acid" metaid="meta_M_1p3h5c_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_2mcacn_c" initialConcentration="0" charge="-3" name="(Z)-but-2-ene-1,2,3-tricarboxylate" metaid="meta_M_2mcacn_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_2mop_c" initialConcentration="0" charge="-1" name="2-methyl-3-oxopropanoate" metaid="meta_M_2mop_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_3htdcoa_c" initialConcentration="0" charge="-4" name="(S)-3-hydroxytetradecanoyl-CoA(4-)" metaid="meta_M_3htdcoa_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_4h2oglt_c" initialConcentration="0" charge="-2" name="4-hydroxy-2-oxoglutarate(2-)" metaid="meta_M_4h2oglt_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_4hpro_LT_c" initialConcentration="0" charge="0" name="trans-4-hydroxy-L-proline" metaid="meta_M_4hpro_LT_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_C11821_c" initialConcentration="0" charge="0" name="5-hydroxyisouric acid" metaid="meta_M_C11821_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_HC00900_c" initialConcentration="0" charge="-2" name="methylmalonic acid" metaid="meta_M_HC00900_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_acorn_c" initialConcentration="0" charge="0" name="N(2)-acetyl-L-ornithine" metaid="meta_M_acorn_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_adpglc_c" initialConcentration="0" charge="-2" name="ADP alpha-D-glucoside(2-)" metaid="meta_M_adpglc_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_alltt_c" initialConcentration="0" charge="-1" name="allantoate" metaid="meta_M_alltt_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_arab_L_c" initialConcentration="0" charge="0" name="L-arabinose" metaid="meta_M_arab_L_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_but_c" initialConcentration="0" charge="-1" name="butyrate" metaid="meta_M_but_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_dudp_c" initialConcentration="0" charge="-3" name="dUDP(3-)" metaid="meta_M_dudp_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_dutp_c" initialConcentration="0" charge="-4" name="dUTP" metaid="meta_M_dutp_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_etoh_c" initialConcentration="0" charge="0" name="ethanol" metaid="meta_M_etoh_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_gam6p_c" initialConcentration="0" charge="-1" name="D-glucosamine 6-phosphate" metaid="meta_M_gam6p_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_hom_L_c" initialConcentration="0" charge="0" name="L-homoserine" metaid="meta_M_hom_L_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_malt_c" initialConcentration="0" charge="0" name="maltose" metaid="meta_M_malt_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_malthp_c" initialConcentration="0" name="maltoheptaose" metaid="meta_M_malthp_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_malthx_c" initialConcentration="0" charge="0" name="alpha-maltohexaose" metaid="meta_M_malthx_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_maltpt_c" initialConcentration="0" charge="0" name="alpha-maltopentaose" metaid="meta_M_maltpt_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_malttr_c" initialConcentration="0" charge="0" name="alpha-maltotriose" metaid="meta_M_malttr_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_maltttr_c" initialConcentration="0" charge="0" name="maltotetraose" metaid="meta_M_maltttr_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_micit_c" initialConcentration="0" charge="-3" name="(2S,3R)-3-hydroxybutane-1,2,3-tricarboxylate" metaid="meta_M_micit_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_mmcoa_S_c" initialConcentration="0" charge="-5" name="(S)-methylmalonyl-CoA(5-)" metaid="meta_M_mmcoa_S_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_msa_c" initialConcentration="0" charge="-1" name="3-oxopropanoate" metaid="meta_M_msa_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_phom_c" initialConcentration="0" charge="-2" name="O-phosphonato-L-homoserine(2-)" metaid="meta_M_phom_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_pro_D_c" initialConcentration="0" charge="0" name="D-proline" metaid="meta_M_pro_D_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_rbl_D_c" initialConcentration="0" charge="0" name="D-ribulose" metaid="meta_M_rbl_D_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_rib_D_c" initialConcentration="0" charge="0" name="D-ribose" metaid="meta_M_rib_D_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_tsul_c" initialConcentration="0" charge="-2" name="thiosulfate(2-)" metaid="meta_M_tsul_c" sboTerm="SBO:0000247" compartment="c"/>
+      <species id="M_xyl_D_c" initialConcentration="0" charge="0" name="aldehydo-D-xylose" metaid="meta_M_xyl_D_c" sboTerm="SBO:0000247" compartment="c"/>
+    </listOfSpecies>
+  </model>
+</sbml>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" level="2" metaid="_25744563-98dd-46d8-b6f9-cf2d22b4e778" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="4">
+  <model id="recon" name="Swainston2016 - Reconstruction of human metabolic network (Recon 2.2) MODEL1603150001" metaid="meta_recon2_2">
+      <listOfUnitDefinitions>
+      <unitDefinition id="flux_unit" metaid="a857c55e-e2df-4616-bcb1-e62b48f4c3ce">
+        <listOfUnits>
+          <unit metaid="_2baa8964-aaf5-4ee6-9523-009c2c8fba37" kind="mole"/>
+          <unit exponent="-1" metaid="_97f06357-aa07-4c4d-848f-bad481f0f2b8" kind="second"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment id="c" name="cytoplasm" metaid="meta_c" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="e" name="extracellular space" metaid="meta_e" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="g" name="Golgi apparatus" metaid="meta_g" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="l" name="lysosome" metaid="meta_l" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="m" name="mitochondrion" metaid="meta_m" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="n" name="nucleus" metaid="meta_n" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="r" name="endoplasmic reticulum" metaid="meta_r" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="x" name="peroxisome" metaid="meta_x" sboTerm="SBO:0000290" size="1">
+            </compartment>
+      <compartment id="b" name="boundary" metaid="ae4b1a5b-d773-4829-a154-e5517204c26c" sboTerm="SBO:0000290" size="1"/>
+      <compartment id="i" name="mitochondrial intermembrane space" metaid="meta_i" sboTerm="SBO:0000290" size="1">
+            </compartment>
+    </listOfCompartments>
+    <listOfSpecies>
+     <species id="MTC" initialConcentration="0" charge="-2" name="MaTargetCherie" metaid="MM4" compartment="c"/>
+    </listOfSpecies>
+  </model>
+</sbml>
