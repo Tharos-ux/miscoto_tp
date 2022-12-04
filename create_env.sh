@@ -9,4 +9,5 @@ source .venv_miscoto/bin/activate
 pip install wheel
 pip install miscoto
 pip install notebook
+pip install matplotlib
 pip install clyngor clyngor-with-clingo
