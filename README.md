@@ -16,7 +16,7 @@ Vous devez avoir une version python >= à 3.6. Si ce n'est pas le cas, installez
 
 3) Pour lancer l'environnement, utilisez la commande `source .venv_miscoto/bin/activate` dans le terminal, en étant placé dans le dossier où vous avez créé l'enironnement.
 
-4) A ce stade, vous devriez pouvoir vérifier la bonne installation de **miscoto** grâce à la commande `miscoto --version`. Vous pouvez désormais ouvrir le Jupyter Notebook qui contient le sujet du TP avec la commande `jupyter miscoto`.
+4) A ce stade, vous devriez pouvoir vérifier la bonne installation de **miscoto** grâce à la commande `miscoto --version`. Vous pouvez désormais ouvrir le Jupyter Notebook qui contient le sujet du TP avec la commande `jupyter-notebook miscoto.ipynb`.
 
 Note : pour quitter l'environnement, utilisez la commande `deactivate` dans le terminal.
 
