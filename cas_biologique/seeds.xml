@@ -5,62 +5,9 @@
       <compartment id="c"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="M_ca2_c" name="calcium(2+)" compartment="c"/>
-      <species id="M_cl_c" name="chloride" compartment="c"/>
-      <species id="M_h2o_c" name="water" compartment="c"/>
-      <species id="M_fe2_c" name="iron(2+)" compartment="c"/>
-      <species id="M_no2_c" name="nitrite" compartment="c"/>
-      <species id="M_k_c" name="potassium(1+)" compartment="c"/>
-      <species id="M_mg2_c" name="Magnesium" compartment="c"/>
-      <species id="M_so4_c" name="sulfate" compartment="c"/>
-      <species id="M_na1_c" name="sodium(1+)" compartment="c"/>
-      <species id="M_hco3_c" name="hydrogencarbonate" compartment="c"/>
-      <species id="M_pi_c" name="hydrogenphosphate" compartment="c"/>
-      <species id="M_arg_L_c" name="L-argininium(1+)" compartment="c"/>
-      <species id="M_cys_L_c" name="L-cysteine" compartment="c"/>
-      <species id="M_gly_c" name="glycine" compartment="c"/>
-      <species id="M_his_L_c" name="L-histidine" compartment="c"/>
-      <species id="M_ile_L_c" name="L-isoleucine" compartment="c"/>
-      <species id="M_leu_L_c" name="L-leucine" compartment="c"/>
-      <species id="M_lys_L_c" name="L-lysinium(1+)" compartment="c"/>
-      <species id="M_met_L_c" name="L-methionine" compartment="c"/>
-      <species id="M_phe_L_c" name="L-phenylalanine" compartment="c"/>
-      <species id="M_ser_L_c" name="L-serine" compartment="c"/>
-      <species id="M_thr_L_c" name="L-threonine" compartment="c"/>
-      <species id="M_trp_L_c" name="L-tryptophan" compartment="c"/>
-      <species id="M_tyr_L_c" name="L-tyrosine" compartment="c"/>
-      <species id="M_val_L_c" name="L-valine" compartment="c"/>
-      <species id="M_chol_c" name="choline" compartment="c"/>
-      <species id="M_fol_c" name="folic acid" compartment="c"/>
-      <species id="M_h2_c" name="Hydrogen" compartment="c"/>
-      <species id="M_inost_c" name="myo-inositol" compartment="c"/>
-      <species id="M_ncam_c" name="nicotinamide" compartment="c"/>
-      <species id="M_pnto_R_c" name="pantothenic acid" compartment="c"/>
-      <species id="M_pydx_c" name="pyridoxal" compartment="c"/>
-      <species id="M_pydxn_c" name="pyridoxine" compartment="c"/>
-      <species id="M_h_c" name="proton" compartment="c"/>
-      <species id="M_ribflv_c" name="riboflavin" compartment="c"/>
-      <species id="M_thm_c" name="thiamine(1+)" compartment="c"/>
-      <species id="M_glc_D_c" name="D-glucopyranose" compartment="c"/>
-      <species id="M_pyr_c" name="pyruvate" compartment="c"/>
-      <species id="M_gln_L_c" name="L-glutamine" compartment="c"/>
-      <species id="M_ascb_L_b" name="L-ascorbate" compartment="c"/>
-      <species id="M_nad_c" name="NAD(1-)" compartment="c"/>
-      <species id="M_nadh_c" name="NADH(2-)" compartment="c"/>
-      <species id="M_adp_c" name="ADP(3-)" compartment="c"/>
-      <species id="M_utp_c" name="UTP(4-)" compartment="c"/>
-      <species id="M_dcmp_e" name="dCMP(2-)" compartment="c"/>
-      <species id="M_o2_c" name="dioxygen" compartment="c"/>
-      <species id="M_co2_c" name="carbon dioxide" compartment="c"/>
-      <species id="M_fad_c" name="FAD" compartment="c"/>
-      <species id="M_ac_c" name="acetate" compartment="c"/>
-      <species id="M_no_c" name="nitric oxide" compartment="c"/>
-      <species id="M_oh1_c" name="hydroxide ion" compartment="c"/>
-      <species id="MS1" name="MaSeed1" compartment="c"/>
-      <species id="MS2" name="MaSeed2" compartment="c"/>
-      <species id="MS3" name="MaSeed3" compartment="c"/>
-      <species id="MS4" name="MaSeed4" compartment="c"/>
 
-  </listOfSpecies>
+      <species id="UREE" name="UREE" compartment="c"/>
+      
+S  </listOfSpecies>
   </model>
 </sbml>

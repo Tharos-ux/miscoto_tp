@@ -31,7 +31,7 @@
             </compartment>
     </listOfCompartments>
     <listOfSpecies>
-     <species id="MTC" initialConcentration="0" charge="-2" name="MaTargetCherie" metaid="MM4" compartment="c"/>
+     <species id="NERYL_ACETATE" initialConcentration="0" charge="-2" name="NERYL_ACETATE" metaid="NERYL_ACETATE" compartment="c"/>
     </listOfSpecies>
   </model>
 </sbml>
