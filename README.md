@@ -4,9 +4,9 @@
 
 Le terme "communauté" fait référence à un groupe d'organismes occupant une niche écologique particulière et qui peut comprendre un nombre quelconque d'espèces. En biologie, de nombreuses études se focalisent sur l'étude des communautés bactériennes, ou microbiotes, tels qu'on en trouve dans le sol ou dans nos intestins. Dans ce TP nous allons utiliser un ensemble réduit de bactéries isolées du colon humain, qui vont former un petit microbiote intestinal dont nous allons explorer la synergie.
 
-Ce TP a pour but de qualifier une ou plusieurs communautés minimales de bactéries capables de réaliser une fonction biologique en particuler, en se basant sur les métabolites que chaque communauté est capable de produire. Sélectionner des sous-communautées au sein d’un microbiote à de nombreuses applications, comme par exemple developper une communauté synthétique de bactéries pour des applications industrielle notamment. La recherche d’échanges entre organismes peut être un atout dans la reconstructions de réseaux métaboliques et dans l’annotation de génomes, afin d’élucider par exemple si un hôte est capable de réaliser une fonction spécifique par lui même ou si il repose sur un symbiote. Cela peut être réalisé grâce à l'outil Miscoto.
+Ce TP a pour but de qualifier une ou plusieurs communautés minimales de bactéries capables de réaliser une fonction biologique en particuler, en se basant sur les métabolites que chaque communauté est capable de produire. Sélectionner des sous-communautés au sein d’un microbiote a de nombreuses applications, comme par exemple développer une communauté synthétique de bactéries pour des applications industrielles notamment. La recherche d’échanges entre organismes peut être un atout dans la reconstruction de réseaux métaboliques et dans l’annotation de génomes, afin d’élucider par exemple si un hôte est capable de réaliser une fonction spécifique par lui même ou si il repose sur un symbiote. Cela peut être réalisé grâce à l'outil Miscoto.
 
-Miscoto (MIcrobiome Screening and Community selection using TOpology). C'est un outil utilisant la programmation logique (ASP) pour identifier des microbiotes de taille minimale capables de produire des métabolites d’intérets, indépendamment ou via une coopération. La coopération fait référence à des échanges de métabolites entre organismes afin de produire un métabolite d’intéret à partir des métabolites disponibles dans le mileu de culture. Miscoto met ainsi en commun toutes les capacités métaboliques de chaque organisme. Si plusieurs solutions sont disponibles il est aussi possible d’améliorer la sélection en introduisant la notion de nombre d’échanges minimum. En effet, les échanges de métabolites entre organismes étant couteux en énergie, il existe un fort sens biologique à les réduire au maximum. Les solutions générées par l’outil peuvent ensuite être filtrées par des critères biologiques.
+Miscoto (MIcrobiome Screening and Community selection using TOpology) est un outil utilisant la programmation par ensemble-réponse (ASP) pour identifier des microbiotes de taille minimale capables de produire des métabolites d’intéret, indépendamment ou via une coopération. La coopération fait référence à des échanges de métabolites entre organismes afin de produire un métabolite d’intéret à partir des métabolites disponibles dans le mileu de culture. Miscoto met ainsi en commun toutes les capacités métaboliques de chaque organisme. Si plusieurs solutions sont disponibles il est aussi possible de restreindre les résultats en introduisant la notion de nombre d’échanges minimum. En effet, les échanges de métabolites entre organismes étant couteux en énergie, il existe un fort sens biologique à les réduire au maximum. Les solutions générées par l’outil peuvent ensuite être filtrées par des critères biologiques.
 
 ## Procédure d'installation
 
@@ -24,21 +24,3 @@ Vous devez avoir une version python >= à 3.6. Si ce n'est pas le cas, installez
 Note : pour quitter l'environnement, utilisez la commande `deactivate` dans le terminal.
 
 Vous pouvez par ailleurs retrouver le code source en suivant [ce lien](https://github.com/cfrioux/miscoto).
-
-## Prise en main
-
-Dans cette première partie, nous vous proposons de vous familliariser avec les commandes de l'outil.
-
-+ Familiariastion avec le format de fichier
-+ (Représentation sous forme de graphe des fichiers d'exemple ?)
-+ Exercice à la main avant de lancer la commande miscoto
-+ Faire modifier les fichiers / dessiner un graphe à la base des résultats
-
-## Réponse à une question biologique
-
-> Choix d'une portion du papier
-
-## Bonus
-
-
-
