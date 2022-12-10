@@ -1,5 +1,3 @@
 .venv_miscoto/
-*.json
-toy_example_3/
-pics/
 .ipynb_checkpoints/
+*.json
