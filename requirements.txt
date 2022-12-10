@@ -1,0 +1,5 @@
+wheel
+miscoto
+notebook
+matplotlib
+clyngor clyngor-with-clingo

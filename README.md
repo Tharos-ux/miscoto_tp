@@ -8,12 +8,16 @@ Ce TP a pour but de qualifier une ou plusieurs communautés minimales de bactér
 
 Miscoto (MIcrobiome Screening and Community selection using TOpology) est un outil utilisant la programmation par ensemble-réponse (ASP) pour identifier des microbiotes de taille minimale capables de produire des métabolites d’intéret, indépendamment ou via une coopération. La coopération fait référence à des échanges de métabolites entre organismes afin de produire un métabolite d’intéret à partir des métabolites disponibles dans le mileu de culture. Miscoto met ainsi en commun toutes les capacités métaboliques de chaque organisme. Si plusieurs solutions sont disponibles il est aussi possible de restreindre les résultats en introduisant la notion de nombre d’échanges minimum. En effet, les échanges de métabolites entre organismes étant couteux en énergie, il existe un fort sens biologique à les réduire au maximum. Les solutions générées par l’outil peuvent ensuite être filtrées par des critères biologiques.
 
-## Procédure d'installation
+## Prérequis :
+
+**Python >= 3.6.0**
+
+## Procédure d'installation (MAC/LINUX)
 
 1) Naviguez jusqu'au dossier contenant les fichiers d'environnement.
 
 2) Editez le contenu du script bash `create_env.sh` en modifiant la version python, accordément à celle présente sur votre machine.
-Vous devez avoir une version python >= à 3.6. Si ce n'est pas le cas, installez une distribution python remplissant cette condition. Si vous ne savez pas quelle version de python est installée sur votre machine, utilisez `python3 --version` ou par défaut `python --version`.
+Vous devez avoir une version python >= à 3.6. Si ce n'est pas le cas, installez une distribution python remplissant cette condition. Si vous ne savez pas quelle version de python est installée sur votre machine, utilisez `python3 --version` ou par défaut `python --version`, et n'écrivez que la release majeure. Par exemple, si votre version est 3.9.6, écrivez `3.9`
 
 3) Exécutez le script pour créer l'environnement avec la commande `bash create_env.sh`.
 
@@ -23,4 +27,14 @@ Vous devez avoir une version python >= à 3.6. Si ce n'est pas le cas, installez
 
 Note : pour quitter l'environnement, utilisez la commande `deactivate` dans le terminal.
 
-Vous pouvez par ailleurs retrouver le code source en suivant [ce lien](https://github.com/cfrioux/miscoto).
+## Procédure d'installation (WINDOWS) déconseillé
+
+1) Vérifiez votre installation de python avec `python --version`.
+
+2) Installez les packages avec `pip install -r requirements.txt`. Le cas échéant, utilisez `pythonX.XX -m pip install -r requirements.txt`
+
+3) A ce stade, vous devriez pouvoir vérifier la bonne installation de **miscoto** grâce à la commande `miscoto --version`. Vous pouvez désormais ouvrir le Jupyter Notebook qui contient le sujet du TP avec la commande `jupyter-notebook miscoto.ipynb`.
+
+## Remarque :
+
+Vous pouvez par ailleurs retrouver le code source de miscoto en suivant [ce lien](https://github.com/cfrioux/miscoto).
